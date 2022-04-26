@@ -7,4 +7,11 @@
   --ff-logo: 'Barlow Condensed', sans-serif;
 
   /* COLORS */
+  --clr-white: #f9fafa;
+  --clr-black: #070c10;
+  --clr-grey: #aeafb8;
+  --clr-lgt-grey: #EBEDF0;
+  --clr-blue: #0E6DFF;
+  --clr-lgt-blue: #6d91a5;
+  --clr-navy-blue: #32505e;
 }

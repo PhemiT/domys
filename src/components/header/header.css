@@ -1,0 +1,131 @@
+.header {
+    padding: 40px 0;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header__content {
+    width: 400px;
+}
+
+.header__content h1 {
+    font-size: 50px;
+    line-height: 57px;
+}
+
+.header__content p {
+    margin-top: 45px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: var(--clr-grey);
+}
+
+.header__cta {
+    padding: 40px 0;
+}
+
+#discover {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#discover a {
+    color: var(--clr-grey);
+    font-size: 16px;
+}
+
+.cta__button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px;
+    background: var(--clr-lgt-grey);
+    border: 1px solid transparent;
+    border-radius: 50px;
+    width: fit-content;
+    margin: 25px 0;
+}
+
+.buy,
+.sell {
+    width: 150px;
+    padding: 15px 25px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    background-color: var(--clr-white);
+    justify-content: center;
+}
+
+.buy {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.buy a {
+    color: var(--clr-blue);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.buy .icon {
+    color: var(--clr-blue);
+    font-size: 20px;
+}
+
+.sell {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sell a {
+    color: var(--clr-grey);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.sell .icon {
+    color: var(--clr-grey);
+    font-size: 20px;
+}
+
+.cta__search {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px;
+    background: var(--clr-white);
+    border: 1px solid transparent;
+    border-radius: 50px;
+    width: fit-content;
+    box-shadow: rgba(14, 109, 255, 0.2) 0px 7px 29px 0px;
+}
+
+.cta__search input {
+    padding: 20px;
+    font-family: var(--ff-main);
+    font-weight: 600;
+    color: var(--clr-black);
+    font-size: 17px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+}
+
+.cta__search button {
+    width: 150px;
+    padding: 20px;
+    background-color: var(--clr-blue);
+    border: 1px solid transparent;
+    border-radius: 50px;
+    font-family: var(--ff-main);
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--clr-white);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}

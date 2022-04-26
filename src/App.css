@@ -5,6 +5,10 @@
   list-style: none;
 }
 
+body {
+  font-family: var(--ff-main);
+}
+
 .container {
   margin: 0 auto;
   width: 85%;
