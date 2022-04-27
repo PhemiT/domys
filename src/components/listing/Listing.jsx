@@ -1,9 +1,22 @@
 import React from 'react'
 import './listing.css'
 
-const Listing = () => {
+const Listing = ({price, title, address, image, owner, ownerImage}) => {
   return (
-    <div>Listing</div>
+    <div className='listing'>
+      <div className="listing__card">
+        <div className="listing__image">
+          <img src={image} alt="Home" />
+          <h4>{price}</h4>
+        </div>
+        <h2>{title}</h2>
+        <p>{address}</p>
+        <div className="owner__detail">
+          <img src={ownerImage} alt="owner" />
+          <p>{owner}</p>
+        </div>
+      </div>
+    </div>
   )
 }
 

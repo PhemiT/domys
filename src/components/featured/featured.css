@@ -1,0 +1,25 @@
+.featured {
+    padding: 40px 0;
+}
+
+.featured__listings {
+    padding: 55px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.ff__cta {
+    display: flex;
+    justify-content: center;
+}
+
+.featured__cta {
+    text-decoration: none;
+    color: var(--clr-white);
+    padding: 15px 30px;
+    background: #26282A;
+    border: 1px solid transparent;
+    border-radius: 35px;
+    font-size: 17px;
+}

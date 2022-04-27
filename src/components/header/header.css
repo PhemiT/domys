@@ -46,7 +46,8 @@
     border: 1px solid transparent;
     border-radius: 50px;
     width: fit-content;
-    margin: 25px 0;
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 .buy,
@@ -129,3 +130,24 @@
     color: var(--clr-white);
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
+
+.typed-cursor{
+    color: var(--clr-blue);
+    
+  }
+  @keyframes typedjsBlink{
+    50% { opacity: 0.0; }
+  }
+  @-webkit-keyframes typedjsBlink{
+    0% { opacity: 1; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1; }
+  }
+  .typed-fade-out{
+    opacity: 0;
+    transition: opacity .25s;
+    -webkit-animation: 0;
+    animation: 0;
+  }
+
+  
