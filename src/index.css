@@ -13,9 +13,14 @@
   --clr-lgt-grey: #EBEDF0;
   --clr-dark-grey: #515151;
   --clr-blue: #0E6DFF;
-  --clr-lgt-blue: #6d91a5;
+  --clr-lgt-blue: #E4F1FC;
   --clr-navy-blue: #32505e;
 
   /* TRANSITION */
   --transition: all 400ms ease
+
+  /* WIDTHS */
+  --container-width-lg: 85%;
+  --container-width-md: 89%;
+  --container-width-sm: 92%;
 }

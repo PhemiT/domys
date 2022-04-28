@@ -47,11 +47,34 @@
 .navbar__sign {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
 }
 
 .navbar__sign a {
     color: var(--clr-grey);
     font-size: 17px;
     font-weight: 500;
+}
+
+.navbar__sign a:nth-child(2) {
+    background-color: var(--clr-lgt-blue);
+    padding: 13px 25px;
+    border: 1px solid transparent;
+    border-radius: 27px;
+    color: var(--clr-blue);
+}
+
+@media screen  and (max-width:900px)  {
+    .divide__line,
+    .navbar__links {
+        display: none;
+    }
+
+    .navbar__sign {
+        gap: 20px;
+    }
+    
+    .navbar__sign a {
+        font-size: 14px;
+    }
 }

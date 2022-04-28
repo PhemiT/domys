@@ -75,3 +75,41 @@
     line-height: 17px;
     font-weight: 400;
 }
+
+@media screen and (max-width: 1024px) {
+    .features__feature {
+        gap: 20px;
+    }
+
+    .features__feature > article h1 {
+        font-size: 22px;
+    }
+
+    .features__feature > article p {
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    .features__feature article {
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .features__feature {
+        gap: 15px;
+        grid-template-columns: 1fr;
+    }
+
+    .features {
+        height: fit-content;
+    }
+
+    .features__text h1 {
+        width: 88%;
+    }
+
+    .features__text p {
+        width: 88%;
+    }
+}
