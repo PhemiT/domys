@@ -33,6 +33,10 @@
 }
 
 @media screen and (max-width:700px) {
+    .cta__container {
+        margin: 0 20px;
+    }
+
     .cta__container h1 {
         width: 88%;
         font-size: 24px;
