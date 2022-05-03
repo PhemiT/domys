@@ -54,6 +54,7 @@ const Header = () => {
         </div>
         <p id='discover'><a href="#sth"><BsArrowDownCircleFill /></a> Discover more offers and properties</p>
       </div>
+      <div className="image__split--section"></div>
     </div>
   )
 }

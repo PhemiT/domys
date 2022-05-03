@@ -1,5 +1,9 @@
 .header {
-    padding: 40px 0;
+    padding: 35px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* justify-items: center; */
+    align-items: center;
 }
 
 .header a {
@@ -105,7 +109,7 @@
     padding: 7px;
     background: var(--clr-white);
     border: 1px solid transparent;
-    border-radius: 50px;
+    border-radius: 35px;
     width: fit-content;
     box-shadow: rgba(14, 109, 255, 0.2) 0px 7px 29px 0px;
 }
@@ -160,9 +164,14 @@
           grid-template-columns: 1fr;
           justify-items: center;
           width: 100%;
+          padding: 9px;
       }
       .cta__search button {
           width: 100%;
+      }
+
+      .header__content h1 {
+          font-size: 45px;
       }
   }
 
