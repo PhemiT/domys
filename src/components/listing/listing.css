@@ -14,7 +14,7 @@
 
 .listing__card h2 {
     font-weight: 400;
-    font-size: 26px;
+    font-size: 24px;
     padding-top: 35px;
     padding-left: 20px;
 }
@@ -31,7 +31,7 @@
 }
 
 .listing__image {
-    width: 100%;
+    width: 305px;
     height: 210px;
     position: relative;
 }
