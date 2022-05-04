@@ -39,7 +39,7 @@ const Header = () => {
   return (
     <div className='header container'>
       <div className="header__content">
-        <h1>Buy and Rent the Perfect <br /><span className='typed-text' style={{ whiteSpace: 'pre' }} ref={el} /> that suits you.</h1>
+        <h1>Buy and Rent the Perfect <br /><span className='typed-text' style={{ whiteSpace: 'pre' }} ref={el} />that suits you.</h1>
         <p>Helping you find the perfect property quickly and securely.</p>
         <div className="header__cta">
           <div className="cta__button">

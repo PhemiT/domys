@@ -25,7 +25,8 @@
     padding-top: 10px;
     font-size: 13px;
 }
-img {
+
+.img {
     object-fit: cover;
 }
 
@@ -35,7 +36,7 @@ img {
     position: relative;
 }
 
-.listing__image img {
+.listing__image .img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -61,7 +62,7 @@ img {
     padding: 20px;
 }
 
-.owner__detail img {
+.owner__detail .img {
     width: 40px;
     height: 40px;
     border: 2px solid var(--clr-white);

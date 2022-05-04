@@ -8,6 +8,7 @@ const Listing = ({price, title, address, image, imageWebp, owner, ownerImage, ow
       <div className="listing__card">
         <div className="listing__image">
         <Image
+          className='img'
           src={image}
           webp={imageWebp}
         />
@@ -17,6 +18,7 @@ const Listing = ({price, title, address, image, imageWebp, owner, ownerImage, ow
         <p>{address}</p>
         <div className="owner__detail">
           <Image
+            className='img'
             src={ownerImage}
             webp={ownerImageWebp}
           />

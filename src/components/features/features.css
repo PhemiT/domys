@@ -99,7 +99,6 @@
     .features__feature {
         gap: 15px;
         grid-template-columns: 1fr;
-        width: 85%;
     }
 
     .features {
