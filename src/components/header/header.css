@@ -59,47 +59,43 @@
 }
 
 .buy,
-.sell {
+.rent {
     width: 150px;
     padding: 15px 25px;
     border: 1px solid transparent;
     border-radius: 50px;
     background-color: var(--clr-white);
     justify-content: center;
-}
-
-.buy {
     display: flex;
     align-items: center;
     gap: 10px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.buy a {
-    color: var(--clr-blue);
+.buy a,
+.rent a {
+    color: var(--clr-grey);
     font-size: 16px;
     font-weight: 700;
 }
 
-.buy .icon {
-    color: var(--clr-blue);
+.buy .icon,
+.rent .icon {
+    color: var(--clr-grey);
     font-size: 20px;
 }
 
-.sell {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.active {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.sell a {
-    color: var(--clr-grey);
+.active a {
+    color: var(--clr-blue);
     font-size: 16px;
     font-weight: 700;
 }
 
-.sell .icon {
-    color: var(--clr-grey);
+.active .icon {
+    color: var(--clr-blue);
     font-size: 20px;
 }
 
@@ -114,8 +110,21 @@
     box-shadow: rgba(14, 109, 255, 0.2) 0px 7px 29px 0px;
 }
 
+.cta__search span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.cta__icon {
+    font-size: 22px;
+    color: var(--clr-dark-grey);
+    margin-left: 10px;
+}
+
 .cta__search input {
-    padding: 20px;
+    padding: 20px 20px 20px 0;
     font-family: var(--ff-main);
     font-weight: 600;
     color: var(--clr-black);

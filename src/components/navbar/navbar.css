@@ -41,7 +41,7 @@
 .navbar__links a {
     font-size: 14px;
     color: var(--clr-grey);
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .navbar__sign {
@@ -52,8 +52,8 @@
 
 .navbar__sign a {
     color: var(--clr-grey);
-    font-size: 17px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 450;
 }
 
 .navbar__sign a:nth-child(2) {
@@ -62,6 +62,7 @@
     border: 1px solid transparent;
     border-radius: 27px;
     color: var(--clr-blue);
+    font-weight: 550;
 }
 
 @media screen  and (max-width:900px)  {

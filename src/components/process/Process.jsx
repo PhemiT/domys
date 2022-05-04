@@ -1,8 +1,12 @@
 import React from 'react'
 import './process.css'
+import Image from 'react-image-webp';
 import Vintage  from '../../assets/vintage.jpg'
 import Dinner from '../../assets/dinner.jpg'
 import Minimalist from '../../assets/minimalist.jpg'
+import Vintagewebp  from '../../assets/vintage.webp'
+import Dinnerwebp from '../../assets/dinner.webp'
+import Minimalistwebp from '../../assets/minimalist.webp'
 
 const Process = () => {
   return (
@@ -18,21 +22,30 @@ const Process = () => {
       </div>
       <div className="process__content">
         <article>
-          <img src={Vintage} alt="" />
+          <Image
+            src={Vintage}
+            webp={Vintagewebp}
+          />
           <h6>26, January 2022</h6>
           <p>A guide to Vintage Homes</p>
           <a href="#rdm">Read More</a>
         </article>
 
         <article>
-          <img src={Dinner} alt="" />
+          <Image
+            src={Dinner}
+            webp={Dinnerwebp}
+          />
           <h6>20, July 2021</h6>
           <p>How to set up a snazzy looking dining section</p>
           <a href="#rdm">Read More</a>
         </article>
         
         <article>
-          <img src={Minimalist} alt="" />
+          <Image
+            src={Minimalist}
+            webp={Minimalistwebp}
+          />
           <h6>21, December 2021</h6>
           <p>Minimalist Decor? Yes or...?</p>
           <a href="#rdm">Read More</a>

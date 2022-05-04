@@ -1,6 +1,8 @@
 import React from 'react'
 import './header.css'
 import { BsArrowUpCircleFill, BsArrowDownCircleFill } from 'react-icons/bs'
+import { TiLocation } from 'react-icons/ti'
+import { MdHomeWork } from 'react-icons/md'
 import Typed from 'typed.js'
 
 const Header = () => {
@@ -30,6 +32,10 @@ const Header = () => {
     }
   }, [])
 
+  const toggleActive = () => {
+    console.log('working')
+  }
+
   return (
     <div className='header container'>
       <div className="header__content">
@@ -37,18 +43,18 @@ const Header = () => {
         <p>Helping you find the perfect property quickly and securely.</p>
         <div className="header__cta">
           <div className="cta__button">
-            <div className="buy">
+            <div className="buy active" onClick={toggleActive} >
               <BsArrowUpCircleFill className='icon'/>
               <a href="#buy">Buy</a>
             </div>
-            <div className="sell">
+            <div className="rent" onClick={toggleActive}>
               <BsArrowDownCircleFill className='icon'/>
-              <a href="#sell">Rent</a>
+              <a href="#rent">Rent</a>
             </div>
           </div>
           <div className="cta__search">
-            <input type="text" placeholder='Location' />
-            <input type="text" placeholder='Property Type' />
+            <span><TiLocation className='cta__icon' /><input type="text" placeholder='Location' /></span>
+            <span><MdHomeWork className='cta__icon' /><input type="text" placeholder='Property Type' /></span>
             <button>Search</button>
           </div>
         </div>
