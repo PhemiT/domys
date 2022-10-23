@@ -1,8 +1,7 @@
 import React from 'react'
 import './header.css'
-import { BsArrowUpCircleFill, BsArrowDownCircleFill } from 'react-icons/bs'
-import { TiLocation } from 'react-icons/ti'
-import { MdHomeWork } from 'react-icons/md'
+import { BsArrowUpCircleFill, BsArrowDownCircleFill, BsFillHouseFill } from 'react-icons/bs'
+import { MdLocationPin } from 'react-icons/md'
 import Typed from 'typed.js'
 
 const Header = () => {
@@ -53,8 +52,8 @@ const Header = () => {
             </div>
           </div>
           <div className="cta__search">
-            <span><TiLocation className='cta__icon' /><input type="text" placeholder='Location' /></span>
-            <span><MdHomeWork className='cta__icon' /><input type="text" placeholder='Property Type' /></span>
+            <span><MdLocationPin className='cta__icon' /><input type="text" placeholder='Location' /></span>
+            <span><BsFillHouseFill className='cta__icon' /><input type="text" placeholder='Property Type' /></span>
             <button>Search</button>
           </div>
         </div>

@@ -1,5 +1,5 @@
 .featured {
-    padding: 40px 0;
+    padding: 40px 0 0;
 }
 
 .featured h1 {
@@ -33,14 +33,14 @@
     .featured__listings {
         grid-template-columns: 1fr 1fr;
     }
+
+    .featured h1 {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:850px) {
     .featured__listings {
         grid-template-columns: 1fr;
-    }
-
-    .featured h1 {
-        text-align: center;
     }
 }

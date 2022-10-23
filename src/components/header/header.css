@@ -168,10 +168,21 @@
   }
 
   @media screen and (max-width:1024px) {
+    .header {
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .header__content {
+        align-items: center;
+    }
+
       .cta__search {
           display: grid;
           grid-template-columns: 1fr;
           justify-items: center;
+          align-items: center;
           width: 100%;
           padding: 9px;
       }
@@ -181,6 +192,7 @@
 
       .header__content h1 {
           font-size: 45px;
+          text-align: center;
       }
   }
 
