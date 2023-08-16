@@ -55,8 +55,14 @@ img {
     gap: 30px;
 }
 
+.process__content > article {
+    width: 100%;
+}
+
 .process__content >article img {
     height: 240px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .process__content >article h6 {
@@ -92,7 +98,10 @@ img {
     }
 
     .subtitle {
-        grid-template-columns: 40% 35% 25%;
+        grid-template-columns: 1fr;
+        padding: 15px 0;
+        gap: 10px;
+        justify-items: flex-start;
     }
 
     .subtitle h1 {

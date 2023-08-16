@@ -1,26 +1,25 @@
-import React from 'react'
-import './listing.css'
-import Image from 'react-image-webp'
+import React from 'react';
+import './listing.css';
 
 const Listing = ({price, title, address, image, imageWebp, owner, ownerImage, ownerImageWebp}) => {
   return (
     <div className='listing'>
       <div className="listing__card">
         <div className="listing__image">
-        <Image
+        <img
           className='img'
           src={image}
-          webp={imageWebp}
+          alt='property'
         />
           <h4>{price}</h4>
         </div>
         <h2>{title}</h2>
         <p>{address}</p>
         <div className="owner__detail">
-          <Image
+          <img
             className='img'
             src={ownerImage}
-            webp={ownerImageWebp}
+            alt='realtor'
           />
           <p>{owner}</p>
         </div>
